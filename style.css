@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Roboto;
+  background-color: #80ce9d;
+  height: 100vh;
+}
+#navbar{
+    background-color: azure;
+    overflow: hidden;
+    opacity: 63.4%;
+    position: relative;
+    
+}
+#navbar ul{
+    text-align: center;
+}
+#navbar ul li{
+    float: left;
+    text-align: center;
+    /* text-decoration: none; */
+    list-style: none;
+    padding: 14px 203px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.tipc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 500px;
+    /* text-align: center; */
+    height: 550px;
+    width: 500px;
+    background-color: rgb(9, 114, 133);
+    flex-direction: column;
+    box-shadow: 1px 1px 15px rgb(22, 29, 27);
+}
+label{
+    margin-top: 20px;
+    padding: 10px;
+}
+input{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    
+}
+button{
+    box-shadow: 1px 1px 6px rgb(20, 18, 18);
+    background-color: rgb(14, 78, 112);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    color: white;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+}
+footer{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    margin-top: 77px;
+   
+}
+h2{
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
