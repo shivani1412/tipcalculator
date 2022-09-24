@@ -8,18 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Tip calculator</title>
 </head>
-<body>
-    <head>
-        <nav id="navbar">
-         <ul>
-            <li>Home</li>
-            <li>About us</li>
-            <li>Contact us</li>
-         </ul>
-         
-        </nav>
-    </head>
-   
+<body>  
     <div class="tipc">
         <h2>TIP CALCULATOR</h2>
         <label>BILL AMOUNT</label>
@@ -27,12 +16,11 @@
         <label>TIP PERCENT%</label>
         <input type="text" id="tipperc" placeholder="ENTER TIP PERCENT"><br>
         <label>TIP AMOUNT</label>
-        <input type="text" id="tipamount" placeholder="TIP AMOUNT"><br>
+        <input type="text" id="tipamount" placeholder="TIP AMOUNT" disabled><br>
         <label>TOTAL BILLED</label>
-        <input type="text" id="totalbilled" placeholder="TOTAL BILL"><br>
+        <input type="text" id="totalbilled" placeholder="TOTAL BILL" disabled><br>
         <button onclick="tipcalcy()">CALCULATE</button>
     </div>
-    <footer><h2>Copy@shivanijain!</h2></footer>
     <script src="script.js"></script>
 </body>
 </html>
